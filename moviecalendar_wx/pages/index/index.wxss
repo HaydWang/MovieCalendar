@@ -1,0 +1,94 @@
+/**index.wxss**/
+.calendar-container{
+    position: relative;
+    height: 100%;
+    max-height: 560px;
+    padding: 10px;
+}
+.loading{
+    position: absolute;
+    left:50%;
+    top:50%;
+    width:120rpx;
+    height:120rpx;
+    margin-left: -60rpx;
+    margin-top: -60rpx;
+}
+.container-inner{
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    margin-bottom: 12px;
+    border:3px solid #333;
+    opacity:0;
+}
+.inner-date{
+    flex-grow: 1;
+    margin: 12px;
+}
+.date-year-month{
+    padding: 6px;
+    text-align: center;
+}
+.date-year-month text{
+    font-size: 16px;
+    font-family: 'Microsoft JhengHei';
+    padding:4px;
+    border-top:1px solid #333;
+    border-bottom:1px solid #333;
+}
+.date-day{
+    text-align: center;
+    font-size: 160px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    letter-spacing: 0px;
+}
+.date-show-year{
+    color:#777;
+    text-align: center;
+}
+.date-directors{
+    text-align: center;
+    color:#777;
+}
+.date-directors text:last-child text{
+    display: none;
+    text-align: center;
+    color:#777;
+}
+.inner-comment{
+    font-family: 'Microsoft JhengHei', Times, serif;
+    width: 100%;
+    padding: 12px;
+    color:#999;
+}
+.inner-comment text{
+    color:#999;
+}
+.inner-movie{
+  display: -webkit-flex;
+  display: flex;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+.movie-cover{
+    width: 16px;
+    height: 16px;
+    align-content: right;
+}
+.movie-info{
+    margin-top: 4px;
+}
+.movie-average{
+    font-size:40px;
+    line-height:40px;
+    letter-spacing: -5px;
+    margin-right: 8px;
+}
+.star{
+    width:16px;
+    height:16px;
+    margin: 2px;
+}
